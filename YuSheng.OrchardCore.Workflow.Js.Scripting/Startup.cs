@@ -12,7 +12,7 @@ namespace YuSheng.OrchardCore.Workflow.Js.Scripting
         public override void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddActivity<PythonScriptTask, ScriptTaskDisplayDriver>(); ;
+            services.AddActivity<JsScriptTask, ScriptTaskDisplayDriver>(); ;
 
 
         }

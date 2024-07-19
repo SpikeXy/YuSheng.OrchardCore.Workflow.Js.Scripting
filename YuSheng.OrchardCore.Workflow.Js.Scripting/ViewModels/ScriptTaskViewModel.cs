@@ -5,6 +5,8 @@ namespace YuSheng.OrchardCore.Workflow.Js.Scripting.ViewModels
     public class ScriptTaskViewModel
     {
         [Required]
+        public string JsBinPath { get; set; }
+        [Required]
         public string JsFilePath { get; set; }
 
         [Required]
