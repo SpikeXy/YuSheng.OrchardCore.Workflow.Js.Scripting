@@ -16,7 +16,7 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>horse-face-front-view-sketch.png</PackageIcon>
     <RepositoryUrl>https://github.com/SpikeXy/YuSheng.OrchardCore.Workflow.Js.Scripting</RepositoryUrl>
-    <PackageTags>orchardcore,python,workflow</PackageTags>
+    <PackageTags>orchardcore,js,workflow</PackageTags>
   </PropertyGroup>
 
 
