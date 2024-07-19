@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace YuSheng.OrchardCore.Workflow.Js.Scripting.ViewModels
 {
-    public class ScriptTaskViewModel
+    public class YuShengScriptTaskViewModel
     {
         [Required]
         public string JsBinPath { get; set; }
