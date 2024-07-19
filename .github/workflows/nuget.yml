@@ -28,6 +28,6 @@ jobs:
       
     - name: Deploy nuget packages
       run: 
-        dotnet nuget push './YuSheng.OrchardCore.Workflow.Python.Scripting/bin/Release/*.nupkg' -k ${{secrets.YUSHENG_ORCHARDCORE}} -n true -s https://api.nuget.org/v3/index.json --skip-duplicate 
+        dotnet nuget push './YuSheng.OrchardCore.Workflow.Js.Scripting/bin/Release/*.nupkg' -k ${{secrets.YUSHENG_ORCHARDCORE}} -n true -s https://api.nuget.org/v3/index.json --skip-duplicate 
       
       
