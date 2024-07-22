@@ -6,7 +6,7 @@ using YuSheng.OrchardCore.Workflow.Js.Scripting.Drivers;
 
 namespace YuSheng.OrchardCore.Workflow.Js.Scripting
 {
-    [Feature("OrchardCore.Workflows")]
+    [Feature("YuSheng.OrchardCore.Workflow.Js.Scripting")]
     public class Startup : StartupBase
     {
         public override void ConfigureServices(IServiceCollection services)

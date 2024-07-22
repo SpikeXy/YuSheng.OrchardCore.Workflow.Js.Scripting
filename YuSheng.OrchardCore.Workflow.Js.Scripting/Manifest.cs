@@ -8,7 +8,7 @@ using OrchardCore.Modules.Manifest;
 )]
 
 [assembly: Feature(
-    Id = "YuSheng OrchardCore Workflow Js Scripting",
+    Id = "YuSheng.OrchardCore.Workflow.Js.Scripting",
     Name = "YuSheng OrchardCore Workflow Js Scripting",
     Description = "Provides js scripting ",
     Dependencies = new[] { "OrchardCore.Workflows" },
